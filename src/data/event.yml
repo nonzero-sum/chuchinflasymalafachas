@@ -1,22 +1,21 @@
 hero:
-  tagline: "The wedding of"
-  title: "said yes!"
+  tagline: "La boda de"
+  title: "Sofía & Chucho"
   description: >
-    An editorial soirée in the heart of the city — bold florals, late-night vinyl,
-    and a guest list filled with our favorite people. Come for the vows, stay for
-    the midnight espresso martinis.
-  weekday: "Saturday"
-  dateDisplay: "21 · 06 · 2026"
-  location: "Mexico City • La Casa Azul"
+    Nos casamos en un día lleno de magia y amor. ¡Ven a celebrarlo con nosotros!
+  weekday: "Sabado"
+  dateDisplay: "27 · 06 · 2026"
+  location: "Morelia • Salón el Pozo"
 
 story:
   chapterLabel: "Chapter One"
   heading: "Our Story"
   body: |
-    We met on a crisp autumn afternoon, when a simple conversation blossomed into an inseparable friendship.
-    Over time, that friendship grew into love, and together we've shared adventures, dreams, and challenges.
-    Today, we celebrate not only our love, but also the family and friends who have joined us on this journey.
-  imageAsset: "wedshots/vadim-paripa-unsplash.jpg"
+    Nos conocimos en la preparatoria, donde compartimos clases y momentos de risas y aprendizaje.
+    A medida que crecimos, tomamos caminos diferentes, pero al final nos llevaron a encontrarnos de nuevo.
+    Juntos, hemos enfrentado desafíos y celebrado logros, creciendo como personas y como pareja.
+    Hoy, celebramos no solo nuestra unión, sino también la familia y amigos que han sido parte de nuestro viaje hasta aquí.
+  imageAsset: "wedshots/SC-3.jpg"
   imageAlt: "Our story together"
   highlights:
     - "💌 From friends to soulmates"
@@ -24,10 +23,10 @@ story:
     - "💍 Engaged under autumn skies"
 
 schedule:
-  eyebrow: "Our Celebration"
-  title: "Wedding Day Schedule"
+  eyebrow: "Nuestra Celebración"
+  title: "Agenda"
   description: >
-    Follow along to savor every cherished moment with us—from vows to the last sparkling toast.
+    No olvides llevar tu cámara para capturar cada momento especial.
   events:
     - number: "01"
       label: "Ceremony"
@@ -76,24 +75,38 @@ schedule:
         - "Last shuttle leaves at 12:30 AM"
 
 gallery:
-  eyebrow: "Gallery"
-  title: "Scroll through the memories"
+  eyebrow: "Galería"
+  title: "Scroll en las memorias"
   description: >
     A curated strip of the moments we never want to forget—from the first look to the final sparkler.
   images:
-    - asset: "wedshots/jakob-owens-unsplash.jpg"
+    - asset: "wedshots/SC-1.jpg"
       alt: "First look on the veranda"
-    - asset: "wedshots/leonardo-miranda-unsplash.jpg"
+    - asset: "wedshots/SC-2.jpg"
       alt: "Bridal bouquet close-up"
-    - asset: "wedshots/nathan-dumlao-2-unsplash.jpg"
+    - asset: "wedshots/SC-3.jpg"
       alt: "Couple walking through the garden"
-    - asset: "wedshots/nathan-dumlao-unsplash.jpg"
+    - asset: "wedshots/SC-4.jpg"
       alt: "Sunset toast with friends"
-    - asset: "wedshots/nikita-shirokov-unsplash.jpg"
+    - asset: "wedshots/SC-5.jpg"
       alt: "First dance candid"
-    - asset: "wedshots/sandy-millar-unsplash.jpg"
+    - asset: "wedshots/SC-6.jpg"
       alt: "Bridal party cheering"
-    - asset: "wedshots/vadim-paripa-unsplash.jpg"
+    - asset: "wedshots/SC-7.jpg"
+      alt: "Sparkler send-off moment"
+    - asset: "wedshots/SC-8.jpg"
+      alt: "Sparkler send-off moment"
+    - asset: "wedshots/SC-9.jpg"
+      alt: "Sparkler send-off moment"
+    - asset: "wedshots/SC-10.jpg"
+      alt: "Sparkler send-off moment"
+    - asset: "wedshots/SC-11.jpg"
+      alt: "Sparkler send-off moment"
+    - asset: "wedshots/SC-12.jpg"
+      alt: "Sparkler send-off moment"
+    - asset: "wedshots/SC-13.jpg"
+      alt: "Sparkler send-off moment"
+    - asset: "wedshots/SC-14.jpg"
       alt: "Sparkler send-off moment"
 
 cards:
@@ -111,5 +124,5 @@ countdown:
   heading: 'Countdown to "We Do"'
   message: >
     Every sunrise brings us closer to the moment we gather together. Save the date and get ready for an unforgettable celebration.
-  target: "2026-06-21T21:00:00Z"
-  location: "Mexico City • La Casa Azul"
+  target: "2026-06-27T21:14:00Z"
+  location: "Morelia, Michoacán"
