@@ -2,7 +2,7 @@ hero:
   tagline: "La boda de"
   title: "Sofía & Chucho"
   description: >
-    Nos casamos en un día lleno de magia y amor. ¡Ven a celebrarlo con nosotros!
+    "Nos casamos en un día lleno de magia y amor. ¡Ven a celebrarlo con nosotros!"
   weekday: "Sabado"
   dateDisplay: "27 · 06 · 2026"
   location: "Morelia • Salón el Pozo"
@@ -16,69 +16,60 @@ story:
     Juntos, hemos enfrentado desafíos y celebrado logros, creciendo como personas y como pareja.
     Hoy, celebramos no solo nuestra unión, sino también la familia y amigos que han sido parte de nuestro viaje hasta aquí.
   imageAsset: "wedshots/SC-3.jpg"
-  imageAlt: "Our story together"
+  imageAlt: "Nuestra historia"
   highlights:
-    - "💌 From friends to soulmates"
-    - "✈️ Adventures across continents"
-    - "💍 Engaged under autumn skies"
+    - "💌 De compañeros a novios"
+    - "💍 Comprometidos en Zacatlán"
 
 schedule:
   eyebrow: "Nuestra Celebración"
   title: "Agenda"
   description: >
-    No olvides llevar tu cámara para capturar cada momento especial.
+    "No olvides llevar tu cámara para capturar cada momento especial."
   events:
     - number: "01"
-      label: "Ceremony"
-      title: "Ceremony & Vows"
+      label: "Misa"
+      title: "Ceremonia Religiosa"
       description: >
-        Gather on the chapel lawn for an intimate ceremony beneath the olive trees. Ushers are ready to guide you to your seat.
+        "En esta ceremonia religiosa, compartiremos momentos especiales y nos uniremos en un acto de fe y amor."
       details:
-        - "Prelude music begins at 3:40 PM"
-        - "Rings & vows at golden hour"
-        - "Quiet shuttle service begins at 3:15 PM"
+        - "Te esperamos en la iglesia a las 12:30hrs"
+        - "La misa comienza a las 13:00hrs"
     - number: "02"
-      label: "Welcome"
-      title: "Garden Cocktail Hour"
+      label: "Recepción"
+      title: "Recepción"
       description: >
-        Sip seasonal cocktails, enjoy live jazz, and mingle beneath the café lights as we transition into the celebration.
+        "Nos reuniremos en el salón de eventos para compartir momentos especiales y disfrutar de una comida deliciosa."
       details:
-        - "Signature drink: Lavender Paloma"
-        - "String trio taking requests"
-        - "Canapés served throughout the garden"
+        - "Evento en jardín"
     - number: "03"
       label: "Dinner"
-      title: "Candlelit Reception"
+      title: "Comida"
       description: >
-        Savor a farm-to-table feast paired with curated wines while heartfelt toasts and stories fill the room.
+        "Servimos una deliciosa comida en el salón de eventos."
       details:
-        - "Dinner call at 6:25 PM"
-        - "Toasts begin after the second course"
-        - "Dessert trio plated at 8:10 PM"
+        - "La comida se servirá a las 15:00hrs"
     - number: "04"
       label: "Celebration"
-      title: "First Dance & Party"
+      title: "Primer Baile"
       description: >
-        Kick off the dance floor with our first dance, then stay on your feet for live DJ sets, photo moments, and late-night bites.
+        Comenzaremos con una danza especial para los novios y sus invitados.
       details:
-        - "First dance at 8:50 PM"
-        - "Dessert lounge opens at 9:30 PM"
-        - "Photo booth until 11:30 PM"
+        - "Primer bailes a las 17:00hrs"
+        - "Comienza la fiesta a las 15:30hrs"
+        - "Photo booth hasta las 11:30 PM"
     - number: "05"
-      label: "Farewell"
-      title: "Sparkler Send-Off"
-      description: >
-        Close the night with a sparkling farewell and a final toast to forever. Shuttles depart every 20 minutes.
+      label: "Despedida"
+      title: "Despedida"
+      description: "Cerraremos la noche con una celebración especial para los novios y sus invitados."
       details:
-        - "Grab a sparkler by the garden gate"
-        - "Final toast at 11:55 PM"
-        - "Last shuttle leaves at 12:30 AM"
+        - "Ceremonia de despedida por el puerta del jardín"
+        - "Brindis a las 11:55 PM"
 
 gallery:
   eyebrow: "Galería"
   title: "Scroll en las memorias"
-  description: >
-    A curated strip of the moments we never want to forget—from the first look to the final sparkler.
+  description: "Una galería de nosotros"
   images:
     - asset: "wedshots/SC-1.jpg"
       alt: "First look on the veranda"
@@ -112,17 +103,16 @@ gallery:
 cards:
   - imageAlt: "RSVP"
     title: "RSVP"
-    description: "Let us know if you’ll be joining our special day!"
+    description: "Por favor confirmanos tu asistencia"
     href: "/rsvp"
   - imageAlt: "Wishlist"
     title: "Wishlist"
-    description: "See our gift wishlist and help us start our new chapter."
+    description: "Tu presencia es regalo suficiente, pero aquí puedes ver nuestra lista de deseos"
     href: "/wishlist"
 
 countdown:
-  label: "Wedding Weekend Countdown"
-  heading: 'Countdown to "We Do"'
-  message: >
-    Every sunrise brings us closer to the moment we gather together. Save the date and get ready for an unforgettable celebration.
+  label: "Cuenta regresiva"
+  heading: "Cuenta regresiva para la boda"
+  message: "¡Cada mañana nos acerca más al momento en que nos reuniremos! ¡Reserva la fecha y prepárate para una celebración inolvidable!"
   target: "2026-06-27T21:14:00Z"
   location: "Morelia, Michoacán"
