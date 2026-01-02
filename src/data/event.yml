@@ -108,7 +108,7 @@ cards:
   - imageAlt: "Wishlist"
     title: "Wishlist"
     description: "Tu presencia es regalo suficiente, pero aquí puedes ver nuestra lista de deseos"
-    href: "/wishlist"
+    href: "https://www.amazon.com.mx/wedding/share/sofychucho"
 
 countdown:
   label: "Cuenta regresiva"
