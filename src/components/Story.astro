@@ -1,7 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import { getEventData } from "../data/eventData";
-
+import Typewriter from "./Typewriter.astro";
 const { story } = getEventData();
 const highlights = story.highlights ?? [];
 const imageAlt = story.imageAlt ?? "Our story together";
@@ -53,7 +53,8 @@ const storyImage = resolveStoryImage(story.imageAsset) ?? null;
                 class="text-lg leading-relaxed whitespace-pre-line font-(--font-sans)"
                 style="color: var(--color-primary); opacity: 0.8;"
             >
-                {story.body}
+            <Typewriter text={story.body} scrub={true} markers={false} start="top center+=300" end="top center" duration={300} autoStart={false} />
+                
             </p>
 
             <div

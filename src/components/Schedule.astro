@@ -1,6 +1,6 @@
 ---
 import { getEventData } from "../data/eventData";
-
+import Typewriter from "./Typewriter.astro";
 const { schedule } = getEventData();
 const events = schedule.events ?? [];
 ---
@@ -29,7 +29,7 @@ const events = schedule.events ?? [];
                 class="mt-6 text-lg"
                 style="color: var(--color-secondary); opacity: 0.8;"
             >
-                {schedule.description}
+                <Typewriter text={schedule.description} scrub={false} markers={false} duration={3} autoStart={false} />
             </p>
         </div>
 
@@ -71,9 +71,7 @@ const events = schedule.events ?? [];
                                 <p
                                     class="text-base sm:text-lg lg:text-xl max-w-2xl"
                                     style="color: var(--color-secondary); opacity: 0.9;"
-                                >
-                                    {event.description}
-                                </p>
+                                >{event.description}</p>
                                 <ul
                                     class="space-y-3 text-sm sm:text-base"
                                     style="color: var(--color-secondary); opacity: 0.8;"
