@@ -7,6 +7,16 @@ hero:
   dateDisplay: "27 · 06 · 2026"
   location: "Morelia • Salón el Pozo"
 
+actions:
+  - imageAlt: "RSVP"
+    title: "RSVP"
+    description: "Por favor confirmanos tu asistencia"
+    href: "/rsvp"
+  - imageAlt: "Wishlist"
+    title: "Wishlist"
+    description: "Tu presencia es regalo suficiente, pero aquí puedes ver nuestra lista de deseos"
+    href: "https://www.amazon.com.mx/wedding/share/sofychucho"
+
 story:
   chapterLabel: "Chapter One"
   heading: "Our Story"
@@ -100,15 +110,7 @@ gallery:
     - asset: "wedshots/SC-14.jpg"
       alt: "Sparkler send-off moment"
 
-cards:
-  - imageAlt: "RSVP"
-    title: "RSVP"
-    description: "Por favor confirmanos tu asistencia"
-    href: "/rsvp"
-  - imageAlt: "Wishlist"
-    title: "Wishlist"
-    description: "Tu presencia es regalo suficiente, pero aquí puedes ver nuestra lista de deseos"
-    href: "https://www.amazon.com.mx/wedding/share/sofychucho"
+
 
 countdown:
   label: "Cuenta regresiva"

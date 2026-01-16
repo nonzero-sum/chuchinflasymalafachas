@@ -34,7 +34,7 @@ export interface ScheduleContent {
   events: ScheduleEvent[];
 }
 
-export interface CardContent {
+export interface ActionContent {
   imageAlt?: string;
   title: string;
   description?: string;
@@ -66,7 +66,7 @@ export interface EventContent {
   story: StoryContent;
   schedule: ScheduleContent;
   gallery: GalleryContent;
-  cards: CardContent[];
+  actions: ActionContent[];
   countdown: CountdownContent;
 }
 
