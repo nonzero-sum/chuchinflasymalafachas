@@ -2,11 +2,23 @@
 import "../styles/global.css";
 import Footer from "../components/Footer.astro";
 const { title } = Astro.props;
+import { SEO } from "astro-seo";
 ---
 
 <!doctype html>
 <html lang="en">
     <head>
+        <SEO
+              title="The Wedding: Chucho & Sofi"
+              description="¡Nos casamos!"
+              openGraph={{
+                basic: {
+                  title: "The Wedding: Chucho & Sofi",
+                  type: "website",
+                  image: "../assets/wedshots/logo.jpg",
+                }
+              }}
+            />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
