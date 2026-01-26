@@ -11,7 +11,7 @@ actions:
   - imageAlt: "RSVP"
     title: "RSVP"
     description: "Por favor confirmanos tu asistencia"
-    href: "/rsvp"
+    href: "https://www.bodas.com.mx/web/sofia-and-chucho"
   - imageAlt: "Wishlist"
     title: "Wishlist"
     description: "Tu presencia es regalo suficiente, pero aquí puedes ver nuestra lista de deseos"
