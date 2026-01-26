@@ -1,11 +1,11 @@
 hero:
-  tagline: "La boda de"
-  title: "Sofía & Chucho"
+  tagline: "Original Screenplay"
+  title: "The Wedding"
   description: >
-    "Nos casamos en un día lleno de magia y amor. ¡Ven a celebrarlo con nosotros!"
+    by Sofía C. Madrigal & Jesús Oropeza M.
   weekday: "Sabado"
   dateDisplay: "27 · 06 · 2026"
-  location: "Morelia • Salón el Pozo"
+  location: "Morelia • Hotel Villa San José"
 
 actions:
   - imageAlt: "RSVP"
@@ -18,8 +18,8 @@ actions:
     href: "https://www.amazon.com.mx/wedding/share/sofychucho"
 
 story:
-  chapterLabel: "Chapter One"
-  heading: "Our Story"
+  chapterLabel: "Capítulo I"
+  heading: "Nuestra Historia"
   body: |
     Nos conocimos en la preparatoria, donde compartimos clases y momentos de risas y aprendizaje.
     A medida que crecimos, tomamos caminos diferentes, pero al final nos llevaron a encontrarnos de nuevo.
@@ -77,8 +77,8 @@ schedule:
         - "Brindis a las 11:55 PM"
 
 gallery:
-  eyebrow: "Galería"
-  title: "Scroll en las memorias"
+  eyebrow: "Reel"
+  title: "Storyboard"
   description: "Una galería de nosotros"
   images:
     - asset: "wedshots/SC-1.jpg"
@@ -109,8 +109,6 @@ gallery:
       alt: "Sparkler send-off moment"
     - asset: "wedshots/SC-14.jpg"
       alt: "Sparkler send-off moment"
-
-
 
 countdown:
   label: "Cuenta regresiva"

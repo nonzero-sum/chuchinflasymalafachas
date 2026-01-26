@@ -14,18 +14,6 @@ const { title } = Astro.props;
         <title>{title}</title>
     </head>
     <body>
-        <noscript>
-            <style>
-                /* When JS is disabled, reveal section content immediately so the page is usable. */
-                .section__inner {
-                    opacity: 1 !important;
-                    transform: none !important;
-                }
-                .section {
-                    min-height: auto !important;
-                }
-            </style>
-        </noscript>
         <slot />
         <Footer />
 

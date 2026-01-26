@@ -29,7 +29,13 @@ const events = schedule.events ?? [];
                 class="mt-6 text-lg"
                 style="color: var(--color-secondary); opacity: 0.8;"
             >
-                <Typewriter text={schedule.description} scrub={false} markers={false} duration={3} autoStart={false} />
+                <Typewriter
+                    text={schedule.description}
+                    scrub={false}
+                    markers={false}
+                    duration={3}
+                    autoStart={false}
+                />
             </p>
         </div>
 
@@ -71,7 +77,15 @@ const events = schedule.events ?? [];
                                 <p
                                     class="text-base sm:text-lg lg:text-xl max-w-2xl"
                                     style="color: var(--color-secondary); opacity: 0.9;"
-                                >{event.description}</p>
+                                >
+                                    <Typewriter
+                                        text={event.description}
+                                        scrub={false}
+                                        markers={false}
+                                        duration={2}
+                                        autoStart={false}
+                                    />
+                                </p>
                                 <ul
                                     class="space-y-3 text-sm sm:text-base"
                                     style="color: var(--color-secondary); opacity: 0.8;"
