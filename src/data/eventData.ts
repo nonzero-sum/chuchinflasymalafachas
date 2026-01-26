@@ -61,6 +61,11 @@ export interface CountdownContent {
   location: string;
 }
 
+export interface FaqItem {
+  question: string;
+  answer: string;
+}
+
 export interface EventContent {
   hero: HeroContent;
   story: StoryContent;
@@ -68,6 +73,7 @@ export interface EventContent {
   gallery: GalleryContent;
   actions: ActionContent[];
   countdown: CountdownContent;
+  faq?: FaqItem[];
 }
 
 const parsedEventData = yaml.parse(eventSource) as EventContent;

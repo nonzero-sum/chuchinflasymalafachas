@@ -114,3 +114,13 @@ countdown:
   message: "¡Cada mañana nos acerca más al momento en que nos reuniremos! ¡Reserva la fecha y prepárate para una celebración inolvidable!"
   target: "2026-06-27T21:14:00Z"
   location: "Morelia, Michoacán"
+
+faq:
+  - question: "¿Cuál es el código de vestimenta?"
+    answer: "Formal elegante. Hombres con traje oscuro y corbata, mujeres con vestido largo o de cóctel."
+  - question: "¿Habrá opciones de comida para personas con restricciones dietéticas?"
+    answer: "Sí, por favor indícanos tus restricciones al momento de confirmar tu asistencia."
+  - question: "¿Hay estacionamiento disponible en el lugar del evento?"
+    answer: "Sí, el lugar cuenta con estacionamiento gratuito para los invitados."
+  - question: "¿Hay descuentos en el hotel para los invitados?"
+    answer: "Sí, hemos negociado tarifas especiales en el Hotel Villa San José. Menciona nuestro nombre al hacer tu reservación."

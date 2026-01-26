@@ -1,0 +1,56 @@
+---
+import { getEventData } from "../data/eventData";
+
+const { faq } = getEventData();
+---
+
+<section
+    style="background: var(--color-primary);"
+>
+    <div class="mx-auto w-full max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="max-w-3xl">
+            <p class="text-sm uppercase tracking-[0.35em]" style="color: color-mix(in srgb, var(--color-secondary) 60%, var(--color-primary) 40%);">FAQ</p>
+            <h2 class="mt-4 text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl" style="color: var(--color-secondary);">Preguntas frecuentes</h2>
+            <p class="mt-4 text-base" style="color: var(--color-secondary); opacity: 0.8;">Si tienes alguna otra duda, contáctanos.</p>
+        </div>
+
+        <div class="mt-8 space-y-4">
+            {faq?.map((item) => (
+                <details class="faq-item rounded border border-dashed p-4" style="border-color: color-mix(in srgb, var(--color-secondary) 60%, var(--color-primary) 40%);">
+                    <summary class="faq-question cursor-pointer text-lg font-medium" style="outline: none;">
+                        {item.question}
+                    </summary>
+                    <div class="faq-answer mt-3 text-base" style="color: var(--color-secondary); opacity: 0.9;">
+                        {item.answer}
+                    </div>
+                </details>
+            ))}
+        </div>
+    </div>
+</section>
+
+<style>
+.faq-item summary {
+  list-style: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: '\25BC';
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%) rotate(0deg);
+  transition: transform 0.2s ease;
+  color: var(--color-accent);
+}
+
+.faq-item[open] summary::after {
+  transform: translateY(-50%) rotate(-180deg);
+}
+</style>
