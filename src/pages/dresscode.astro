@@ -1,0 +1,60 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+
+const imageModules = import.meta.glob("../assets/dresscode/*.{png,jpg,jpeg,webp}", {
+  eager: true,
+  import: "default",
+}) as Record<string, any>;
+
+const galleryImages = Object.entries(imageModules).map(([path, meta]) => {
+  const filename = path.replace("../assets/dresscode/", "");
+  const alt = filename.replace(/[-_.]/g, " ").replace(/\b\d+\b/g, "").trim() || "Ejemplo de vestimenta";
+  return { src: meta, alt };
+});
+---
+
+<Layout>
+  <section style="background-color: var(--color-primary); color: var(--color-secondary);">
+    <div class="mx-auto w-full max-w-6xl px-4 py-24 sm:px-6 lg:px-8">
+      <p class="text-sm uppercase tracking-[0.35em]" style="color: color-mix(in srgb, var(--color-secondary) 60%, var(--color-primary) 40%);">Vestimenta</p>
+      <h1 class="mt-4 text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl" style="color: var(--color-secondary);">Código de vestimenta</h1>
+
+      <div class="mt-8 max-w-3xl prose prose-sm text-gray-700">
+        <p>Animamos a nuestros invitados a vestir de forma semiformal para la boda. Esto significa:</p>
+        <ul>
+          <li><strong>Hombres:</strong> Traje o pantalón de vestir con camisa de botones y corbata. Una americana (blazer) es opcional.</li>
+          <li><strong>Mujeres:</strong> Vestido de cóctel, falda elegante con blusa, o un conjunto de pantalón de vestir. Eviten ropa demasiado informal como vaqueros o camisetas.</li>
+        </ul>
+        <p>Queremos que todos se sientan cómodos y elegantes mientras celebran con nosotros. Si tienen alguna pregunta sobre el código de vestimenta, no duden en contactarnos.</p>
+      </div>
+
+      <div class="mt-10">
+        <h3 class="text-lg font-semibold mb-4" style="color: var(--color-secondary);">Ejemplos visuales</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+          {galleryImages.map((image) => (
+            <figure class="overflow-hidden rounded-2xl bg-emerald-50/10 ring-1 ring-gray-100">
+              <a
+                href={image.src?.src ?? image.src}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={image.alt}
+                class="block group focus:outline-none"
+              >
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  width={1200}
+                  height={900}
+                  class="object-cover w-full h-40 sm:h-48 transition-transform duration-200 group-hover:scale-105"
+                  loading="lazy"
+                />
+              </a>
+              <figcaption class="sr-only">{image.alt}</figcaption>
+            </figure>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

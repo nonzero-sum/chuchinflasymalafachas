@@ -15,7 +15,15 @@ actions:
   - imageAlt: "Wishlist"
     title: "Wishlist"
     description: "Tu presencia es regalo suficiente, pero aquí puedes ver nuestra lista de deseos"
-    href: "https://www.amazon.com.mx/wedding/share/sofychucho"
+    href: "https://www.amazon.com.mx/wedding/share/chuchoysofi"
+  - imageAlt: "Dresscode"
+    title: "Dresscode"
+    description: "Código de vestimenta para la boda"
+    href: "/dresscode"
+  - imageAlt: "Hotel"
+    title: "Hotel"
+    description: "Información sobre el hotel para los invitados"
+    href: "/hotel"
 
 story:
   chapterLabel: "Capítulo I"
@@ -117,7 +125,7 @@ countdown:
 
 faq:
   - question: "¿Cuál es el código de vestimenta?"
-    answer: "Formal elegante. Hombres con traje oscuro y corbata, mujeres con vestido largo o de cóctel."
+    answer: "COCKTAIL ATTIRE. NO JEANS o PANTALONES CARGO"
   - question: "¿Habrá opciones de comida para personas con restricciones dietéticas?"
     answer: "Sí, por favor indícanos tus restricciones al momento de confirmar tu asistencia."
   - question: "¿Hay estacionamiento disponible en el lugar del evento?"

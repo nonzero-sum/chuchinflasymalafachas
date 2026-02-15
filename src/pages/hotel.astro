@@ -1,0 +1,61 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+  <section style="background-color: var(--color-primary); color: var(--color-secondary);">
+    <div class="mx-auto w-full max-w-6xl px-4 py-24 sm:px-6 lg:px-8">
+      <p class="text-sm uppercase tracking-[0.35em]" style="color: color-mix(in srgb, var(--color-secondary) 60%, var(--color-primary) 40%);">Alojamiento</p>
+      <h1 class="mt-4 text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl" style="color: var(--color-secondary);">Tarifas del Hotel</h1>
+
+      <div class="mt-10 overflow-x-auto">
+        <div class="inline-block w-full align-middle bg-white rounded-lg shadow ring-1 ring-gray-100">
+          <table class="w-full divide-y divide-gray-200 text-sm sm:text-base table-auto" aria-label="Tarifas de habitaciones">
+            <caption class="sr-only">Tarifas de habitaciones y precios especiales por evento</caption>
+            <thead style="background: color-mix(in srgb, var(--color-secondary) 6%, var(--color-primary) 94%);">
+              <tr>
+                <th class="px-6 py-3 text-left text-xs font-semibold uppercase tracking-wider">Servicio</th>
+                <th class="px-6 py-3 text-right text-xs font-semibold uppercase tracking-wider">Precio público<br class="hidden sm:inline">Plan Europeo 2025</th>
+                <th class="px-6 py-3 text-right text-xs font-semibold uppercase tracking-wider">Precio especial<br class="hidden sm:inline">por evento</th>
+              </tr>
+            </thead>
+            <tbody class="bg-white divide-y divide-gray-100">
+              <tr class="odd:bg-transparent hover:bg-gray-50">
+                <td class="px-6 py-4 font-medium text-gray-800">Habitación Estándar</td>
+                <td class="px-6 py-4 text-right text-gray-600 tabular-nums whitespace-nowrap">$1,900.00</td>
+                <td class="px-6 py-4 text-right font-semibold text-emerald-600 tabular-nums whitespace-nowrap">$1,650.00</td>
+              </tr>
+              <tr class="odd:bg-transparent hover:bg-gray-50">
+                <td class="px-6 py-4 font-medium text-gray-800">Habitación Junior</td>
+                <td class="px-6 py-4 text-right text-gray-600 tabular-nums">$2,200.00</td>
+                <td class="px-6 py-4 text-right font-semibold text-emerald-600 tabular-nums">$1,880.00</td>
+              </tr>
+              <tr class="odd:bg-transparent hover:bg-gray-50">
+                <td class="px-6 py-4 font-medium text-gray-800">Habitación con Vista a la ciudad</td>
+                <td class="px-6 py-4 text-right text-gray-600 tabular-nums">$2,400.00</td>
+                <td class="px-6 py-4 text-right font-semibold text-emerald-600 tabular-nums">$2,050.00</td>
+              </tr>
+              <tr class="odd:bg-transparent hover:bg-gray-50">
+                <td class="px-6 py-4 font-medium text-gray-800">Senior Suite (6 personas)</td>
+                <td class="px-6 py-4 text-right text-gray-600 tabular-nums">$3,050.00</td>
+                <td class="px-6 py-4 text-right font-semibold text-emerald-600 tabular-nums">$2,800.00</td>
+              </tr>
+              <tr class="odd:bg-transparent hover:bg-gray-50">
+                <td class="px-6 py-4 font-medium text-gray-800">Máster Suite (6 personas)</td>
+                <td class="px-6 py-4 text-right text-gray-600 tabular-nums">$3,800.00</td>
+                <td class="px-6 py-4 text-right font-semibold text-emerald-600 tabular-nums">$3,400.00</td>
+              </tr>
+              <tr class="odd:bg-transparent hover:bg-gray-50">
+                <td class="px-6 py-4 font-medium text-gray-800">Persona Extra</td>
+                <td class="px-6 py-4 text-right text-gray-500 tabular-nums">—</td>
+                <td class="px-6 py-4 text-right font-semibold text-emerald-600 tabular-nums">$500.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <p class="mt-6 text-base" style="color: var(--color-secondary); opacity: 0.8;">Los precios están indicados en la moneda local y pueden variar. Para reservar con la tarifa especial por evento, ponte en contacto con el hotel y menciona nuestro bloque de reserva.</p>
+    </div>
+  </section>
+</Layout>
