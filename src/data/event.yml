@@ -2,8 +2,8 @@ hero:
   tagline: "Original Screenplay"
   title: "The Wedding"
   description: >
-    by Sofía C. Madrigal & Jesús Oropeza M.
-  weekday: "Sabado"
+    by Sofía Cortez Madrigal & Jesús Oropeza Martínez
+  weekday: "Sábado"
   dateDisplay: "27 · 06 · 2026"
   location: "Morelia • Hotel Villa San José"
 
@@ -14,7 +14,7 @@ actions:
     href: "https://www.bodas.com.mx/web/sofia-and-jesus-2026-06-27"
   - imageAlt: "Wishlist"
     title: "Wishlist"
-    description: "Tu presencia es regalo suficiente, pero aquí puedes ver nuestra lista de deseos"
+    description: "Tu presencia es regalo suficiente, pero aquí puedes ver nuestra bonita lista de deseos"
     href: "https://www.amazon.com.mx/wedding/share/chuchoysofi"
   - imageAlt: "Dresscode"
     title: "Dresscode"
@@ -29,65 +29,61 @@ story:
   chapterLabel: "Capítulo I"
   heading: "Nuestra Historia"
   body: |
-    Nos conocimos en la preparatoria, donde compartimos clases y momentos de risas y aprendizaje.
-    A medida que crecimos, tomamos caminos diferentes, pero al final nos llevaron a encontrarnos de nuevo.
-    Juntos, hemos enfrentado desafíos y celebrado logros, creciendo como personas y como pareja.
-    Hoy, celebramos no solo nuestra unión, sino también la familia y amigos que han sido parte de nuestro viaje hasta aquí.
+    Sofía y Jesús, mejor conocidos como Chucho y Sofi, se conocieron cuando tenían 15 y 14 años, durante su primer año de preparatoria. Los años pasaron y algunas aisladas confesiones de amor fueron inevitables, así como los impedimentos, con Chucho mudándose al otro lado del país y los atados sueños artísticos de Sofi en Morelia; redujeron un amor inexplicable y casi correspondido a deseos reprimidos y encuentros afortunados vistos como accidentales. Solo bastaba el verse para volver a recopilar todo lo que amaban. El resto del tiempo, sin siquiera comunicarse, dentro de ellos continuó el anhelo impaciente de algún día alcanzar el corazón del otro.
+    Gracias a Dios, y las coincidencias que nunca han sido eso: coincidencias. Desde diciembre 2022 —con el mismo interés de como cuando eran solo unos adolescentes enamorados— pesar del pasado, el miedo, la incertidumbre y la distancia: se eligieron. 
+    Con un amor real, puro y sincero nacido de la amistad, ahora deciden unir sus vidas, continuando la elección de amarse cada día. Después de todo, siempre serán ellos dos.
   imageAsset: "wedshots/SC-3.jpg"
   imageAlt: "Nuestra historia"
-  highlights:
-    - "💌 De compañeros a novios"
-    - "💍 Comprometidos en Zacatlán"
-
+  
 schedule:
   eyebrow: "Nuestra Celebración"
-  title: "Agenda"
+  title: "AGENDA"
   description: >
-    "No olvides llevar tu cámara para capturar cada momento especial."
+    Formal. Elegante. Divertida. Solo adultos. Te mostramos la fabulosa y sencilla agenda que tenemos planeada para el gran día. Será su culpa si algo sale mal.
   events:
     - number: "01"
       label: "Misa"
-      title: "Ceremonia Religiosa"
+      title: "CEREMONIA RELIGIOSA"
       description: >
-        "En esta ceremonia religiosa, compartiremos momentos especiales y nos uniremos en un acto de fe y amor."
+        Esto va en serio. Con la bendición de Dios y de nuestros padres, nos casaremos en una ceremonia religiosa, celebrada por nuestro querido amigo, el padre Sergio Rosiles. Sofi, a diferencia de Chucho, tuvo que hacer su primera comunión y confirmación meses antes para esto, shame on her.
       details:
-        - "Te esperamos en la iglesia a las 12:30hrs"
-        - "La misa comienza a las 13:00hrs"
+        - "Te esperamos en el Ex-Monasterio Benedictino a las 12:30 hrs"
+        - "La misa comienza puntualmente a las 13:00 hrs"
     - number: "02"
-      label: "Recepción"
-      title: "Recepción"
+      label: "Cocktail hour"
+      title: "RECEPCIÓN"
       description: >
-        "Nos reuniremos en el salón de eventos para compartir momentos especiales y disfrutar de una comida deliciosa."
+        ¡No tendremos que movernos tanto! Tampoco será necesario regresar a casa. A tan solo unos minutos de la iglesia, nos reuniremos para empezar a celebrar a los novios con una cervecita.
       details:
-        - "Evento en jardín"
+        - "Área de alberca a las 14:30 hrs"
     - number: "03"
       label: "Dinner"
-      title: "Comida"
+      title: "BANQUETE"
       description: >
-        "Servimos una deliciosa comida en el salón de eventos."
+        Nos pasaremos al Salón Principal, donde podremos disfrutar de una deliciosa comida a las 16:00 hrs.
       details:
-        - "La comida se servirá a las 15:00hrs"
+        - ""
     - number: "04"
-      label: "Celebration"
-      title: "Primer Baile"
+      label: "Celebración"
+      title: "BODORRIO"
       description: >
-        Comenzaremos con una danza especial para los novios y sus invitados.
+        Aunque no queramos, la tradición nos obliga a pararnos frente a todos ustedes, fingiendo que no nos da pena bailar. Después de eso, podremos disfrutar de la fiesta, la música y muchos drinks, si Dios lo permite.
       details:
-        - "Primer bailes a las 17:00hrs"
-        - "Comienza la fiesta a las 15:30hrs"
-        - "Photo booth hasta las 11:30 PM"
+        - "Primer baile a las 18:00 hrs"
+        - "Fiesta a las 18:30 hrs"
+        - "Borrachera desde antes, porfa."
     - number: "05"
       label: "Despedida"
-      title: "Despedida"
-      description: "Cerraremos la noche con una celebración especial para los novios y sus invitados."
+      title: "BYE BYE"
+      description: >
+        No queremos que la fiesta termine, pero en algún momento tendremos que despedirnos. Si no nos encuentran, no se preocupen. Ahí nos mandan un beso.
       details:
-        - "Ceremonia de despedida por el puerta del jardín"
-        - "Brindis a las 11:55 PM"
+        - "Nos corren a las 23:00 hrs"
 
 gallery:
   eyebrow: "Reel"
   title: "Storyboard"
-  description: "Una galería de nosotros"
+  description: Una galería, medio vintage, como de película, tipo romcom, dices tú.
   images:
     - asset: "wedshots/SC-1.jpg"
       alt: ""
@@ -124,11 +120,13 @@ countdown:
   location: "Morelia, Michoacán"
 
 faq:
+  - question: "¿Solo adultos?"
+    answer: "Sí y no, son bienvenidas a la misa personas de 0 a 100+ años, pero por políticas del hotel, la recepción, banquete y fiesta serán solo para personas mayores de 13 años."
   - question: "¿Cuál es el código de vestimenta?"
-    answer: "COCKTAIL ATTIRE. NO JEANS o PANTALONES CARGO"
+    answer: "COCKTAIL ATTIRE. NO JEANS o PANTALONES CARGO. PROCURA EVITAR EL NEGRO, ¿O QUIERES MORIR DE CALOR?"
   - question: "¿Habrá opciones de comida para personas con restricciones dietéticas?"
-    answer: "Sí, por favor indícanos tus restricciones al momento de confirmar tu asistencia."
+    answer: "Sí, por favor indícanos tus restricciones al momento de confirmar tu asistencia. A los primos de Sofi y amigos de Chucho veganos, no se preocupen, habrá opciones."
   - question: "¿Hay estacionamiento disponible en el lugar del evento?"
-    answer: "Sí, el lugar cuenta con estacionamiento gratuito para los invitados."
+    answer: "Sí, el lugar cuenta con valet parking y estacionamiento gratuito para los invitados."
   - question: "¿Hay descuentos en el hotel para los invitados?"
     answer: "Sí, hemos negociado tarifas especiales en el Hotel Villa San José. Menciona nuestro nombre al hacer tu reservación."
