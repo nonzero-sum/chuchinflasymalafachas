@@ -2,7 +2,7 @@
 import { Image } from "astro:assets";
 import type { ImageMetadata } from "astro:assets";
 import { getEventData } from "../data/eventData";
-import Typewriter from "./Typewriter.astro";
+
 const { gallery: galleryContent } = getEventData();
 
 const imageModules = import.meta.glob("../assets/**/*", {
@@ -57,7 +57,7 @@ const galleryImages = (galleryContent.images ?? [])
                 class="mt-4 text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl"
                 style="color: var(--color-secondary);"
             >
-                <Typewriter text={galleryContent.title} autoStart={true} />
+                {galleryContent.title}
             </h2>
             <p
                 class="mt-6 text-lg"
@@ -117,7 +117,7 @@ const galleryImages = (galleryContent.images ?? [])
         const gallery = document.getElementById("gallery-scroll");
         if (!gallery) return;
 
-        const track = gallery.querySelector(".gallery-track") as HTMLElement;
+        const track = gallery.querySelector(".gallery-track");
         if (!track) return;
 
         const applyCenterPadding = () => {
@@ -132,13 +132,9 @@ const galleryImages = (galleryContent.images ?? [])
             track.style.paddingRight = `${padding}px`;
         };
 
-        applyCenterPadding();
-
-        // Force layout recalc before GSAP reads dimensions
-        // eslint-disable-next-line @typescript-eslint/no-unused-expressions
-        track.scrollWidth;
-
         const getScrollLength = () => track.scrollWidth - gallery.clientWidth;
+
+        applyCenterPadding();
 
         gsap.to(track, {
             x: () => -getScrollLength(),
@@ -150,8 +146,15 @@ const galleryImages = (galleryContent.images ?? [])
                 pin: true,
                 scrub: 0.6,
                 invalidateOnRefresh: true,
-                onRefreshInit: () => applyCenterPadding(),
+                onRefresh: applyCenterPadding,
             },
         });
+
+        ScrollTrigger.addEventListener("refreshInit", () => {
+            track.style.removeProperty("transform");
+            applyCenterPadding();
+        });
+
+        window.addEventListener("resize", () => ScrollTrigger.refresh());
     });
 </script>
